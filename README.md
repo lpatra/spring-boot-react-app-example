@@ -14,7 +14,7 @@ ln -s ../../../../react-app/build static
 # How to build and run?
 - Before building the spring boot app, one needs to build the react app. Use the following command from the root folder to build
 ```bash
-cd react-app && npm run build && cd - && cd spring-boot-app && gradle build && cd -;
+cd react-app && npm run build && cd - && cd spring-boot-app && ./gradlew build && cd -;
 ```
 - Then you can run the spring boot application jar as follows
 ```bash
